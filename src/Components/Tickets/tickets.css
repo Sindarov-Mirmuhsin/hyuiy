@@ -1,0 +1,43 @@
+.ul {
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+}
+
+.tickets{
+	padding: 32px;
+}
+
+.tickets__title{
+	font-weight: 700;
+	font-size: 19px;
+	line-height: 24px;
+	letter-spacing: 0.4px;
+	color: #252733;
+}
+
+.tickets {
+	display: flex;
+	align-items: center;
+}
+
+.tickets__box {
+	display: flex;
+	align-items: center;
+	margin-left: auto;
+	
+}
+
+.tickets__box--right{
+	display: flex;
+	align-items: center;
+	margin-left: 34px;
+}
+
+.tickets__text + .tickets__text {
+	margin-left: 34px;
+}
+
+.tickets__img{
+	margin-right: 10px;
+}

@@ -1,0 +1,146 @@
+.all-tickets {
+	margin: 30px;
+	border: 1px solid #dfe0eb;
+	border-radius: 8px;
+}
+
+.all-tickets__list {
+	margin: 0;
+	padding-left: 0;
+}
+
+.all-tickets__item {
+	position: relative;
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	padding: 26px 42px 26px 26px;
+	border-bottom: 1px solid #dfe0eb;
+}
+
+.all-tickets__item--top {
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	padding: 0 26px;
+	border-bottom: 1px solid #dfe0eb;
+}
+
+.all-tickets__box {
+	width: 290px;
+	display: flex;
+	align-content: center;
+	flex-direction: column;
+}
+
+.all-tickets__text {
+	font-weight: 700;
+	font-size: 14px;
+	line-height: 18px;
+	letter-spacing: 0.2px;
+	color: #9fa2b4;
+}
+
+.all-tickets__text--right {
+	position: absolute;
+	font-weight: 700;
+	font-size: 14px;
+	line-height: 18px;
+	letter-spacing: 0.2px;
+	color: #9fa2b4;
+	left: 732px;
+}
+
+.all-tickets__text--left {
+	position: absolute;
+	font-weight: 700;
+	font-size: 14px;
+	line-height: 18px;
+	letter-spacing: 0.2px;
+	color: #9fa2b4;
+	left: 395px;
+}
+
+.all-tickets__text--bottom {
+	position: absolute;
+	font-weight: 700;
+	font-size: 14px;
+	line-height: 18px;
+	letter-spacing: 0.2px;
+	color: #9fa2b4;
+	left: 965px;
+}
+
+.all-tickets__title {
+	width: 372px;
+	font-weight: 600;
+	font-size: 14px;
+	line-height: 20px;
+	letter-spacing: 0.2px;
+	color: #252733;
+	margin-top: 0;
+	margin-bottom: 5px;
+}
+
+.tickets__title {
+	font-weight: 700;
+	font-size: 19px;
+	line-height: 24px;
+	letter-spacing: 0.4px;
+	color: #252733;
+}
+
+.tickets__text {
+	font-weight: 600;
+	font-size: 14px;
+	line-height: 20px;
+	letter-spacing: 0.2px;
+}
+
+.all-tickets__type {
+	font-weight: 400;
+	font-size: 12px;
+	line-height: 16px;
+	letter-spacing: 0.1px;
+	color: #c5c7cd;
+}
+
+.all-tickets__name {
+	font-weight: 600;
+	font-size: 14px;
+	line-height: 20px;
+	letter-spacing: 0.2px;
+	color: #252733;
+}
+
+.all-tickets__time {
+	width: 208px;
+	font-weight: 600;
+	font-size: 14px;
+	line-height: 20px;
+	letter-spacing: 0.2px;
+	color: #252733;
+}
+
+.all-tickets__box--left {
+	margin-right: 100px;
+}
+
+.all-tickets__btn {
+	position: absolute;
+	left: 81%;
+	padding: 5px 12px;
+	background: #f12b2c;
+	border-radius: 100px;
+	border: none;
+	outline: none;
+	color: #fff;
+}
+
+.all-tickets__btn--yellow {
+	background: #fec400;
+}
+
+.all-tickets__btn--green {
+	background: #29cc97;
+}

@@ -1,0 +1,126 @@
+.trend {
+	display: flex;
+	justify-content: space-between;
+	align-items: flex-start;
+	background: #ffffff;
+	border: 1px solid #dfe0eb;
+	box-sizing: border-box;
+	border-radius: 8px;
+	margin: 30px;
+}
+
+.trend__inner {
+	width: 100%;
+	display: flex;
+	justify-content: space-around;
+	/* margin-bottom: 500px; */
+}
+
+.trend__box {
+	margin-right: 250px;
+}
+
+.trend-list {
+	display: flex;
+	align-items: center;
+}
+
+.trend__title {
+	font-family: 'Mulish';
+	font-style: normal;
+	font-weight: 700;
+	font-size: 19px;
+	line-height: 24px;
+	letter-spacing: 0.4px;
+	color: #252733;
+	margin-bottom: 0;
+}
+
+.trend__time {
+	font-family: 'Mulish';
+	font-style: normal;
+	font-weight: 400;
+	font-size: 12px;
+	line-height: 16px;
+	letter-spacing: 0.1px;
+	color: #9fa2b4;
+}
+
+.trend-list__item {
+	list-style-type: none;
+}
+
+.trend-list__item + .trend-list__item {
+	margin-left: 80px;
+}
+
+.trend-list__text {
+	font-family: 'Mulish';
+	font-style: normal;
+	font-weight: 600;
+	font-size: 12px;
+	line-height: 15px;
+	letter-spacing: 0.1px;
+	color: #9fa2b4;
+	display: flex;
+	align-items: center;
+}
+
+.trend-list__text::before {
+	content: '';
+	position: absolute;
+	top: 42.5%;
+	left: 827px;
+	height: 2px;
+	width: 16px;
+	background-color: #3751ff;
+	border-radius: 24px;
+}
+
+.trend-list__text::after {
+	content: '';
+	position: absolute;
+	top: 42.5%;
+	left: 940px;
+	height: 2px;
+	width: 16px;
+	background-color: #dfe0eb;
+	border-radius: 24px;
+}
+
+.trend__list {
+	margin: 0;
+	padding-left: 0;
+}
+
+.trend__item {
+	width: 342px;
+	padding: 24px 32px;
+	list-style-type: none;
+	border-bottom: 1px solid #dfe0eb;
+	border-left: 1px solid #dfe0eb;
+}
+
+.list__text {
+	font-family: 'Mulish';
+	font-style: normal;
+	font-weight: 600;
+	font-size: 16px;
+	line-height: 22px;
+	text-align: center;
+	letter-spacing: 0.3px;
+	color: #9fa2b4;
+	margin-top: 0;
+}
+
+.list__number {
+	display: flex;
+	justify-content: center;
+	font-family: 'Mulish';
+	font-style: normal;
+	font-weight: 700;
+	font-size: 24px;
+	line-height: 30px;
+	letter-spacing: 0.3px;
+	color: #252733;
+}
