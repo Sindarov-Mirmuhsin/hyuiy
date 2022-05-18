@@ -9,7 +9,6 @@ import Img8 from '../AllTickets/Images/img8.png';
 import Vertical from '../AllTickets/Images/vertical.png';
 import Sort from '../AllTickets/Images/sort.png';
 import Filter from '../AllTickets/Images/filter.png';
-
 import './allTickets.css';
 import Pagination from '../Pagination/Pagination';
 
